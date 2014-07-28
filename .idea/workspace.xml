@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a25e89-8667-4d47-ba36-dab0995fd3b4" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/crz/document_detail.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/egovsk/document_detail.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/attachment.rb" afterPath="$PROJECT_DIR$/app/models/attachment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/crz/contract.rb" afterPath="$PROJECT_DIR$/app/models/crz/contract.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/egovsk/contract.rb" afterPath="$PROJECT_DIR$/app/models/egovsk/contract.rb" />
+    <list default="true" id="09a25e89-8667-4d47-ba36-dab0995fd3b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/document.rb" afterPath="$PROJECT_DIR$/app/models/document.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/oz_data.iml" afterPath="$PROJECT_DIR$/.idea/oz_data.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oz_data.iws" />
@@ -60,8 +52,8 @@
       <file leaf-file-name="document.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/document.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5465313" vertical-offset="0" max-vertical-offset="591">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8680203" vertical-offset="0" max-vertical-offset="627">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -168,9 +160,9 @@
         <option value="$PROJECT_DIR$/app/models/crz_document_detail.rb" />
         <option value="$PROJECT_DIR$/app/models/crz/contract.rb" />
         <option value="$PROJECT_DIR$/app/models/egovsk/contract.rb" />
-        <option value="$PROJECT_DIR$/app/models/document.rb" />
         <option value="$PROJECT_DIR$/app/models/attachment.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/document.rb" />
       </list>
     </option>
   </component>
@@ -431,14 +423,18 @@
       <created>1406538807798</created>
       <updated>1406538807798</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added elastic search">
+      <created>1406543506779</created>
+      <updated>1406543506779</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="26" width="1845" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32846716" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32846716" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26570317" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -496,7 +492,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="added elastic search" />
+    <option name="LAST_COMMIT_MESSAGE" value="added elastic search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -894,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/document.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5465313" vertical-offset="0" max-vertical-offset="591">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8680203" vertical-offset="0" max-vertical-offset="627">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>
