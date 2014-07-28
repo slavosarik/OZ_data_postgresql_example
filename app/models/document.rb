@@ -3,7 +3,7 @@ class Document < ActiveRecord::Base
 
   def to_indexable
     {
-        department: department,
+        customer: details.customer,
         content: attachments.first.pages.map(&:text).join(' ')
     }
   end
